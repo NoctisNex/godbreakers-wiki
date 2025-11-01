@@ -184,10 +184,10 @@
     async function loadAllData() {
       try {
         const [fragments, equipment, conditions, abilities] = await Promise.all([
-          fetch('/src/data/fragments.json').then(r => r.json()),
-          fetch('/src/data/equipment.json').then(r => r.json()),
-          fetch('/src/data/conditions.json').then(r => r.json()),
-          fetch('/src/data/abilities.json').then(r => r.json())
+          fetch('/data/fragments.json').then(r => r.json()),
+          fetch('/data/equipment.json').then(r => r.json()),
+          fetch('/data/conditions.json').then(r => r.json()),
+          fetch('/data/abilities.json').then(r => r.json())
         ]);
         
         allData = { fragments, equipment, conditions, abilities };

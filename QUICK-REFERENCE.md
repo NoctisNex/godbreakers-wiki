@@ -7,6 +7,8 @@ npm run dev              # Start development (http://localhost:5173)
 npm run build            # Build for production
 npm run preview          # Preview production build
 npm run generate-data    # Regenerate JSON from images
+npm run sync-data        # Copy data files to public folder
+npm run fix-paths        # Fix image paths in JSON files
 ```
 
 ## 📁 Where to Edit
@@ -83,8 +85,17 @@ Edit `src/styles/main.css`:
 
 ## 🐛 Common Issues
 
+**Navigation not working?**
+- Run: `npm run sync-data`
+- Run: `npm run fix-paths`
+
 **Images not loading?**
-- Check path: `/public/Media/...`
+- Check path: `/godbreakers-wiki/Media/...`
+- Run: `npm run fix-paths`
+
+**After editing JSON files?**
+- Run: `npm run sync-data`
+- Run: `npm run fix-paths`
 
 **Build fails?**
 - Check JSON syntax

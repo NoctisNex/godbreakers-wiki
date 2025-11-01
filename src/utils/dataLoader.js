@@ -8,7 +8,7 @@ export async function loadData(type) {
   }
 
   try {
-    const response = await fetch(`/src/data/${type}.json`);
+    const response = await fetch(`/godbreakers-wiki/data/${type}.json`);
     if (!response.ok) {
       throw new Error(`Failed to load ${type} data`);
     }

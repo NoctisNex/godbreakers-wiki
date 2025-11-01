@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "generate-data": "node scripts/generate-data.js"
+    "generate-data": "node scripts/generate-data.js",
+    "fix-paths": "node scripts/fix-image-paths.js",
+    "sync-data": "xcopy /E /I /Y src\\data public\\data"
   },
   "repository": {
     "type": "git",

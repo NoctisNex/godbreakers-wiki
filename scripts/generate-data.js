@@ -39,7 +39,7 @@ function generateFragments() {
           id: filenameToId(file),
           name: filenameToName(file),
           category: category.toLowerCase(),
-          image: `/public/Media/Fragments/${category}/${file}`,
+          image: `/godbreakers-wiki/Media/Fragments/${category}/${file}`,
           description: 'Add your description here from the game screenshot',
           baseDescription: 'Base effect description',
           upgradedDescription: 'Upgraded effect description'
@@ -74,7 +74,7 @@ function generateEquipment() {
         id: filenameToId(file),
         name: name,
         type: type,
-        image: `/public/Media/Equipments/${file}`,
+        image: `/godbreakers-wiki/Media/Equipments/${file}`,
         description: 'Add your description here from the game screenshot',
         effect: 'Effect description'
       });
@@ -104,7 +104,7 @@ function generateConditions() {
           id: filenameToId(file),
           name: filenameToName(file),
           type: types[folder],
-          image: `/public/Media/Conditions/${folder}/${file}`,
+          image: `/godbreakers-wiki/Media/Conditions/${folder}/${file}`,
           description: 'Add your description here from the game screenshot',
           effect: 'Effect description'
         });
@@ -126,7 +126,7 @@ function generateAbilities() {
       abilities.push({
         id: filenameToId(file),
         name: filenameToName(file),
-        image: `/public/Media/Godbreak Abilities/${file}`,
+        image: `/godbreakers-wiki/Media/Godbreak Abilities/${file}`,
         description: 'Add your description here from the game screenshot',
         effect: 'Effect description',
         cooldown: 'TBD'
@@ -145,33 +145,60 @@ const equipment = generateEquipment();
 const conditions = generateConditions();
 const abilities = generateAbilities();
 
-// Write files
-const dataDir = path.join(rootDir, 'src', 'data');
+// Write files to both src/data and public/data
+const srcDataDir = path.join(rootDir, 'src', 'data');
+const publicDataDir = path.join(rootDir, 'public', 'data');
 
+// Ensure public/data directory exists
+if (!fs.existsSync(publicDataDir)) {
+  fs.mkdirSync(publicDataDir, { recursive: true });
+}
+
+// Write fragments
 fs.writeFileSync(
-  path.join(dataDir, 'fragments.json'),
+  path.join(srcDataDir, 'fragments.json'),
+  JSON.stringify(fragments, null, 2)
+);
+fs.writeFileSync(
+  path.join(publicDataDir, 'fragments.json'),
   JSON.stringify(fragments, null, 2)
 );
 console.log(`✓ Generated ${fragments.length} fragments`);
 
+// Write equipment
 fs.writeFileSync(
-  path.join(dataDir, 'equipment.json'),
+  path.join(srcDataDir, 'equipment.json'),
+  JSON.stringify(equipment, null, 2)
+);
+fs.writeFileSync(
+  path.join(publicDataDir, 'equipment.json'),
   JSON.stringify(equipment, null, 2)
 );
 console.log(`✓ Generated ${equipment.length} equipment items`);
 
+// Write conditions
 fs.writeFileSync(
-  path.join(dataDir, 'conditions.json'),
+  path.join(srcDataDir, 'conditions.json'),
+  JSON.stringify(conditions, null, 2)
+);
+fs.writeFileSync(
+  path.join(publicDataDir, 'conditions.json'),
   JSON.stringify(conditions, null, 2)
 );
 console.log(`✓ Generated ${conditions.length} conditions`);
 
+// Write abilities
 fs.writeFileSync(
-  path.join(dataDir, 'abilities.json'),
+  path.join(srcDataDir, 'abilities.json'),
+  JSON.stringify(abilities, null, 2)
+);
+fs.writeFileSync(
+  path.join(publicDataDir, 'abilities.json'),
   JSON.stringify(abilities, null, 2)
 );
 console.log(`✓ Generated ${abilities.length} abilities`);
 
 console.log('\nAll data files generated successfully!');
+console.log('Files written to both src/data/ and public/data/');
 console.log('Now you can fill in the descriptions from your game screenshots.');
 
