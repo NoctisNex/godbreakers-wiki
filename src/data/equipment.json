@@ -1,0 +1,154 @@
+[
+  {
+    "id": "armor-pendant",
+    "name": "Armor Pendant",
+    "type": "pendant",
+    "image": "/public/Media/Equipments/Armor-Pendant.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "cleansing-field-generator",
+    "name": "Cleansing Field Generator",
+    "type": "generator",
+    "image": "/public/Media/Equipments/Cleansing-Field-Generator.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "entropic-aura",
+    "name": "Entropic Aura",
+    "type": "aura",
+    "image": "/public/Media/Equipments/Entropic-Aura.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "entropic-orb",
+    "name": "Entropic Orb",
+    "type": "orb",
+    "image": "/public/Media/Equipments/Entropic-Orb.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "entropic-trap",
+    "name": "Entropic Trap",
+    "type": "trap",
+    "image": "/public/Media/Equipments/Entropic-Trap.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "exploding-orb",
+    "name": "Exploding Orb",
+    "type": "orb",
+    "image": "/public/Media/Equipments/Exploding-Orb.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "exploding-trap",
+    "name": "Exploding Trap",
+    "type": "trap",
+    "image": "/public/Media/Equipments/Exploding-Trap.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "fiery-orb",
+    "name": "Fiery Orb",
+    "type": "orb",
+    "image": "/public/Media/Equipments/Fiery-Orb.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "fiery-temper",
+    "name": "Fiery Temper",
+    "type": "equipment",
+    "image": "/public/Media/Equipments/Fiery-Temper.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "fiery-trap",
+    "name": "Fiery Trap",
+    "type": "trap",
+    "image": "/public/Media/Equipments/Fiery-Trap.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "flux-field-generator",
+    "name": "Flux Field Generator",
+    "type": "generator",
+    "image": "/public/Media/Equipments/Flux-Field-Generator.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "noxious-orb",
+    "name": "Noxious Orb",
+    "type": "orb",
+    "image": "/public/Media/Equipments/Noxious-Orb.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "noxious-splatter",
+    "name": "Noxious Splatter",
+    "type": "equipment",
+    "image": "/public/Media/Equipments/Noxious-Splatter.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "noxious-trap",
+    "name": "Noxious Trap",
+    "type": "trap",
+    "image": "/public/Media/Equipments/Noxious-Trap.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "primal-energy-generator",
+    "name": "Primal Energy Generator",
+    "type": "generator",
+    "image": "/public/Media/Equipments/Primal-Energy-Generator.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "sentinel-dispenser",
+    "name": "Sentinel Dispenser",
+    "type": "dispenser",
+    "image": "/public/Media/Equipments/Sentinel-Dispenser.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "shell-shield-generator",
+    "name": "Shell Shield Generator",
+    "type": "generator",
+    "image": "/public/Media/Equipments/Shell-Shield-Generator.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "thorn-shield-generator",
+    "name": "Thorn Shield Generator",
+    "type": "generator",
+    "image": "/public/Media/Equipments/Thorn-Shield-Generator.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "uhr's-blessing",
+    "name": "Uhr's Blessing",
+    "type": "blessing",
+    "image": "/public/Media/Equipments/Uhr's-Blessing.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  }
+]

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Godbreakers Wiki - Data Entry Helper</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 { color: #e63946; }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .panel {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .image-panel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #screenshot {
+      max-width: 100%;
+      max-height: 600px;
+      border: 2px dashed #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      background: #fafafa;
+    }
+    .file-input {
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+    }
+    select, input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    textarea {
+      min-height: 100px;
+      font-family: inherit;
+      resize: vertical;
+    }
+    button {
+      background: #e63946;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 5px;
+    }
+    button:hover { background: #d62839; }
+    button.secondary {
+      background: #457b9d;
+    }
+    button.secondary:hover { background: #3d6f8a; }
+    label {
+      font-weight: bold;
+      color: #333;
+      display: block;
+      margin-top: 10px;
+    }
+    .output {
+      background: #f8f8f8;
+      padding: 15px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      margin-top: 15px;
+      font-family: monospace;
+      font-size: 12px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    .info {
+      background: #e7f3ff;
+      padding: 15px;
+      border-radius: 4px;
+      border-left: 4px solid #457b9d;
+      margin-bottom: 20px;
+    }
+    .item-nav {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+    .stats {
+      background: #f0f0f0;
+      padding: 10px;
+      border-radius: 4px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎮 Godbreakers Wiki - Data Entry Helper</h1>
+  
+  <div class="info">
+    <strong>How to use:</strong>
+    <ol>
+      <li>Open your screenshot on the left by pasting it or loading a file</li>
+      <li>Select the data type and item from the dropdowns</li>
+      <li>Fill in the descriptions based on what you see in the screenshot</li>
+      <li>Click "Copy JSON" and paste it into the appropriate data file</li>
+      <li>Use Previous/Next buttons to move through items quickly</li>
+    </ol>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="container">
+    <!-- Left Panel: Screenshot -->
+    <div class="panel image-panel">
+      <h2>Screenshot</h2>
+      <input type="file" class="file-input" id="fileInput" accept="image/*">
+      <div id="pasteArea" style="width: 100%; text-align: center; padding: 20px; border: 2px dashed #ccc; border-radius: 8px; cursor: pointer; margin: 10px 0;">
+        Click here and press Ctrl+V to paste screenshot
+      </div>
+      <img id="screenshot" src="" alt="Paste or load your screenshot here" style="display: none;">
+    </div>
+
+    <!-- Right Panel: Data Entry -->
+    <div class="panel">
+      <h2>Data Entry</h2>
+      
+      <label>Data Type:</label>
+      <select id="dataType">
+        <option value="fragments">Fragments</option>
+        <option value="equipment">Equipment</option>
+        <option value="conditions">Conditions</option>
+        <option value="abilities">Abilities</option>
+      </select>
+
+      <label>Select Item:</label>
+      <select id="itemSelect"></select>
+
+      <div class="item-nav">
+        <button class="secondary" onclick="previousItem()">← Previous</button>
+        <button class="secondary" onclick="nextItem()">Next →</button>
+      </div>
+
+      <div id="formFields"></div>
+
+      <div style="margin-top: 20px;">
+        <button onclick="copyJSON()">📋 Copy JSON</button>
+        <button class="secondary" onclick="saveToFile()">💾 Save to File</button>
+        <button class="secondary" onclick="updateAllData()">🔄 Update All Data</button>
+      </div>
+
+      <div class="output" id="output"></div>
+    </div>
+  </div>
+
+  <script>
+    let allData = {
+      fragments: [],
+      equipment: [],
+      conditions: [],
+      abilities: []
+    };
+    let currentItemIndex = 0;
+
+    // Load data files
+    async function loadAllData() {
+      try {
+        const [fragments, equipment, conditions, abilities] = await Promise.all([
+          fetch('/src/data/fragments.json').then(r => r.json()),
+          fetch('/src/data/equipment.json').then(r => r.json()),
+          fetch('/src/data/conditions.json').then(r => r.json()),
+          fetch('/src/data/abilities.json').then(r => r.json())
+        ]);
+        
+        allData = { fragments, equipment, conditions, abilities };
+        updateStats();
+        loadItemList();
+      } catch (error) {
+        console.error('Error loading data:', error);
+        alert('Please make sure you are running this file through the dev server (npm run dev)');
+      }
+    }
+
+    function updateStats() {
+      const stats = document.getElementById('stats');
+      const total = Object.values(allData).reduce((sum, arr) => sum + arr.length, 0);
+      stats.innerHTML = `
+        <strong>📊 Database Stats:</strong> 
+        Fragments: ${allData.fragments.length} | 
+        Equipment: ${allData.equipment.length} | 
+        Conditions: ${allData.conditions.length} | 
+        Abilities: ${allData.abilities.length} | 
+        <strong>Total: ${total} items</strong>
+      `;
+    }
+
+    function loadItemList() {
+      const dataType = document.getElementById('dataType').value;
+      const select = document.getElementById('itemSelect');
+      select.innerHTML = '';
+      
+      allData[dataType].forEach((item, index) => {
+        const option = document.createElement('option');
+        option.value = index;
+        option.textContent = item.name;
+        select.appendChild(option);
+      });
+
+      currentItemIndex = 0;
+      loadItem();
+    }
+
+    function loadItem() {
+      const dataType = document.getElementById('dataType').value;
+      const items = allData[dataType];
+      const item = items[currentItemIndex];
+      
+      const formFields = document.getElementById('formFields');
+      formFields.innerHTML = '';
+
+      // Create form based on item type
+      Object.keys(item).forEach(key => {
+        if (key === 'id' || key === 'image') return;
+
+        const label = document.createElement('label');
+        label.textContent = key.charAt(0).toUpperCase() + key.slice(1).replace(/([A-Z])/g, ' $1');
+        
+        const input = key.includes('description') || key === 'effect' 
+          ? document.createElement('textarea')
+          : document.createElement('input');
+        
+        input.id = `field_${key}`;
+        input.value = item[key] || '';
+        
+        if (key === 'name' || key === 'category' || key === 'type') {
+          input.readOnly = true;
+          input.style.background = '#f0f0f0';
+        }
+
+        formFields.appendChild(label);
+        formFields.appendChild(input);
+      });
+
+      updateOutput();
+    }
+
+    function getCurrentItem() {
+      const dataType = document.getElementById('dataType').value;
+      const item = {...allData[dataType][currentItemIndex]};
+
+      // Update with form values
+      Object.keys(item).forEach(key => {
+        const input = document.getElementById(`field_${key}`);
+        if (input) {
+          item[key] = input.value;
+        }
+      });
+
+      return item;
+    }
+
+    function updateOutput() {
+      const item = getCurrentItem();
+      document.getElementById('output').textContent = JSON.stringify(item, null, 2);
+    }
+
+    function copyJSON() {
+      const item = getCurrentItem();
+      navigator.clipboard.writeText(JSON.stringify(item, null, 2));
+      alert('JSON copied to clipboard!');
+    }
+
+    function saveToFile() {
+      updateAllData();
+      const dataType = document.getElementById('dataType').value;
+      const data = allData[dataType];
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${dataType}.json`;
+      a.click();
+    }
+
+    function updateAllData() {
+      const dataType = document.getElementById('dataType').value;
+      const item = getCurrentItem();
+      allData[dataType][currentItemIndex] = item;
+      alert('Item updated in memory! Click "Save to File" to download the updated JSON.');
+    }
+
+    function previousItem() {
+      updateAllData();
+      if (currentItemIndex > 0) {
+        currentItemIndex--;
+        document.getElementById('itemSelect').value = currentItemIndex;
+        loadItem();
+      }
+    }
+
+    function nextItem() {
+      updateAllData();
+      const dataType = document.getElementById('dataType').value;
+      if (currentItemIndex < allData[dataType].length - 1) {
+        currentItemIndex++;
+        document.getElementById('itemSelect').value = currentItemIndex;
+        loadItem();
+      }
+    }
+
+    // Event listeners
+    document.getElementById('dataType').addEventListener('change', loadItemList);
+    document.getElementById('itemSelect').addEventListener('change', (e) => {
+      currentItemIndex = parseInt(e.target.value);
+      loadItem();
+    });
+
+    // Listen for changes in form fields
+    document.getElementById('formFields').addEventListener('input', updateOutput);
+
+    // Image handling
+    document.getElementById('fileInput').addEventListener('change', (e) => {
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+          const img = document.getElementById('screenshot');
+          img.src = event.target.result;
+          img.style.display = 'block';
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    // Paste image support
+    const pasteArea = document.getElementById('pasteArea');
+    pasteArea.addEventListener('click', () => pasteArea.focus());
+    pasteArea.setAttribute('tabindex', '0');
+    
+    document.addEventListener('paste', (e) => {
+      const items = e.clipboardData.items;
+      for (let item of items) {
+        if (item.type.indexOf('image') !== -1) {
+          const blob = item.getAsFile();
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            const img = document.getElementById('screenshot');
+            img.src = event.target.result;
+            img.style.display = 'block';
+            pasteArea.style.display = 'none';
+          };
+          reader.readAsDataURL(blob);
+        }
+      }
+    });
+
+    // Initialize
+    loadAllData();
+  </script>
+</body>
+</html>
+

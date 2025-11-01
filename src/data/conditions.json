@@ -1,0 +1,242 @@
+[
+  {
+    "id": "armor",
+    "name": "Armor",
+    "type": "buff",
+    "image": "/public/Media/Conditions/Buff/Armor.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "empower",
+    "name": "Empower",
+    "type": "buff",
+    "image": "/public/Media/Conditions/Buff/Empower.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "rampage",
+    "name": "Rampage",
+    "type": "buff",
+    "image": "/public/Media/Conditions/Buff/Rampage.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "speed",
+    "name": "Speed",
+    "type": "buff",
+    "image": "/public/Media/Conditions/Buff/Speed.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "strengthen",
+    "name": "Strengthen",
+    "type": "buff",
+    "image": "/public/Media/Conditions/Buff/Strengthen.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "enfeeble",
+    "name": "Enfeeble",
+    "type": "debuff",
+    "image": "/public/Media/Conditions/Debuff/Enfeeble.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "slow",
+    "name": "Slow",
+    "type": "debuff",
+    "image": "/public/Media/Conditions/Debuff/Slow.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "vulnerable",
+    "name": "Vulnerable",
+    "type": "debuff",
+    "image": "/public/Media/Conditions/Debuff/Vulnerable.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "weakened",
+    "name": "Weakened",
+    "type": "debuff",
+    "image": "/public/Media/Conditions/Debuff/Weakened.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "burning",
+    "name": "Burning",
+    "type": "dot",
+    "image": "/public/Media/Conditions/DOT_Damage-Over-Time/Burning.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "decay",
+    "name": "Decay",
+    "type": "dot",
+    "image": "/public/Media/Conditions/DOT_Damage-Over-Time/Decay.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "poison",
+    "name": "Poison",
+    "type": "dot",
+    "image": "/public/Media/Conditions/DOT_Damage-Over-Time/Poison.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "ability-activation",
+    "name": "Ability Activation",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Ability-Activation.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "absored-ability",
+    "name": "Absored Ability",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Absored-Ability.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "backstab",
+    "name": "Backstab",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Backstab.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "barrier",
+    "name": "Barrier",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Barrier.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "chain-lightning",
+    "name": "Chain Lightning",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Chain-Lightning.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "cleanse",
+    "name": "Cleanse",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Cleanse.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "coil",
+    "name": "Coil",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Coil.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "crit",
+    "name": "Crit",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Crit.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "doom",
+    "name": "Doom",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Doom.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "explosion",
+    "name": "Explosion",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Explosion.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "godbreak-explosion",
+    "name": "Godbreak Explosion",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Godbreak-Explosion.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "godbreak",
+    "name": "Godbreak",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Godbreak.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "invulnerability",
+    "name": "Invulnerability",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Invulnerability.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "leech",
+    "name": "Leech",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Leech.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "reflect",
+    "name": "Reflect",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Reflect.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "sentinel",
+    "name": "Sentinel",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Sentinel.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "source-light",
+    "name": "Source Light",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Source-Light.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  },
+  {
+    "id": "stun",
+    "name": "Stun",
+    "type": "effect",
+    "image": "/public/Media/Conditions/Effect/Stun.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description"
+  }
+]

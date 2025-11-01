@@ -1,0 +1,956 @@
+[
+  {
+    "id": "affliction-overload",
+    "name": "Affliction Overload",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Affliction-Overload.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "blessed-charge",
+    "name": "Blessed Charge",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Blessed-Charge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "blood-lust",
+    "name": "Blood Lust",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Blood-Lust.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "calamity-charge",
+    "name": "Calamity Charge",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Calamity-Charge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "collective-punishment",
+    "name": "Collective Punishment",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Collective-Punishment.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "compounded-misery",
+    "name": "Compounded Misery",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Compounded-Misery.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-torment",
+    "name": "Critical Torment",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Critical-Torment.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "entropic-charge",
+    "name": "Entropic Charge",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Entropic-Charge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "fated-strike",
+    "name": "Fated Strike",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Fated-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "firebrand",
+    "name": "Firebrand",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Firebrand.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "focused-pain",
+    "name": "Focused Pain",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Focused-Pain.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "glass-cannon",
+    "name": "Glass Cannon",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Glass-Cannon.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "greed",
+    "name": "Greed",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Greed.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "imbued-strike",
+    "name": "Imbued Strike",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Imbued-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "inertia-capacitor",
+    "name": "Inertia Capacitor",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Inertia-Capacitor.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "ironclad-strike",
+    "name": "Ironclad Strike",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Ironclad-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "lightning-strike",
+    "name": "Lightning Strike",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Lightning-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "permatox",
+    "name": "Permatox",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Permatox.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "pre-emptive-strike",
+    "name": "Pre Emptive Strike",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Pre-Emptive-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "prismatic-discharge",
+    "name": "Prismatic Discharge",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Prismatic-Discharge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "sentinel-slash",
+    "name": "Sentinel Slash",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Sentinel-Slash.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "speed-demon",
+    "name": "Speed Demon",
+    "category": "arms",
+    "image": "/public/Media/Fragments/Arms/Speed-Demon.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "bewildering-performance",
+    "name": "Bewildering Performance",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Bewildering-Performance.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "combined-torment",
+    "name": "Combined Torment",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Combined-Torment.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "compounded-decay",
+    "name": "Compounded Decay",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Compounded-Decay.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-gain",
+    "name": "Critical Gain",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Critical-Gain.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-overload",
+    "name": "Critical Overload",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Critical-Overload.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-vulnerability",
+    "name": "Critical Vulnerability",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Critical-Vulnerability.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "devious-blessing",
+    "name": "Devious Blessing",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Devious-Blessing.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "endurance-surge",
+    "name": "Endurance Surge",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Endurance-Surge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "fatal-blast",
+    "name": "Fatal Blast",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Fatal-Blast.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "flame-guard",
+    "name": "Flame Guard",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Flame-Guard.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "force-booster",
+    "name": "Force Booster",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Force-Booster.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "godbreak-shield",
+    "name": "Godbreak Shield",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Godbreak-Shield.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "gravity-well",
+    "name": "Gravity Well",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Gravity-well.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "negative-feedback",
+    "name": "Negative Feedback",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Negative-Feedback.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "recursive-coil",
+    "name": "Recursive Coil",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Recursive-Coil.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "savage-charge",
+    "name": "Savage Charge",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Savage-Charge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "sentinel-recursion",
+    "name": "Sentinel Recursion",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Sentinel-Recursion.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "static-surge",
+    "name": "Static Surge",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Static-Surge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "tempered-armor",
+    "name": "Tempered Armor",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Tempered-Armor.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "temporal-transfer",
+    "name": "Temporal Transfer",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Temporal-Transfer.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "toxic-torments",
+    "name": "Toxic Torments",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Toxic-Torments.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "vampiric-slash",
+    "name": "Vampiric Slash",
+    "category": "chest",
+    "image": "/public/Media/Fragments/Chest/Vampiric-Slash.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "air-jump",
+    "name": "Air Jump",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Air-Jump.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "boron-trail",
+    "name": "Boron Trail",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Boron-Trail.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "bullwalk",
+    "name": "Bullwalk",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Bullwalk.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-rush",
+    "name": "Critical Rush",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Critical-Rush.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "dash-boost",
+    "name": "Dash Boost",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Dash-Boost.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "dashing-current",
+    "name": "Dashing Current",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Dashing-Current.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "devious-stab",
+    "name": "Devious Stab",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Devious-Stab.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "direct-approach",
+    "name": "Direct Approach",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Direct-Approach.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "impeding-strike",
+    "name": "Impeding Strike",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Impeding-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "mirage-walk",
+    "name": "Mirage Walk",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Mirage-Walk.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morphic-stride",
+    "name": "Morphic Stride",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Morphic-Stride.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morphic-torment",
+    "name": "Morphic Torment",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Morphic-Torment.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "protective-layer",
+    "name": "Protective Layer",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Protective-Layer.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "sentinel-strike",
+    "name": "Sentinel Strike",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Sentinel-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "shared-afflictions",
+    "name": "Shared Afflictions",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Shared-Afflictions.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "stride-shield",
+    "name": "Stride Shield",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Stride-Shield.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "strong-position",
+    "name": "Strong Position",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Strong-Position.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "swift-action",
+    "name": "Swift Action",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Swift-Action.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "temporal-blast",
+    "name": "Temporal Blast",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Temporal-Blast.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "vampiric-poison",
+    "name": "Vampiric Poison",
+    "category": "feet",
+    "image": "/public/Media/Fragments/Feet/Vampiric-Poison.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "assured-agony",
+    "name": "Assured Agony",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Assured-Agony.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "bewildering-ambush",
+    "name": "Bewildering Ambush",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Bewildering-Ambush.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "blast-booster",
+    "name": "Blast Booster",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Blast-Booster.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "boosted-torments",
+    "name": "Boosted Torments",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Boosted-Torments.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "communal-coil",
+    "name": "Communal Coil",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Communal-Coil.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-heat",
+    "name": "Critical Heat",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Critical-Heat.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-voltage",
+    "name": "Critical Voltage",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Critical-Voltage.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "debilitating-combo",
+    "name": "Debilitating Combo",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Debilitating-Combo.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "entropic-mark",
+    "name": "Entropic Mark",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Entropic-Mark.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "evasive-strike",
+    "name": "Evasive Strike",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Evasive-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "explosive-combustion",
+    "name": "Explosive Combustion",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Explosive-Combustion.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morbid-armor",
+    "name": "Morbid Armor",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Morbid-Armor.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morphic-leech",
+    "name": "Morphic Leech",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Morphic-Leech.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "opportune-strength",
+    "name": "Opportune Strength",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Opportune-Strength.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "perfect-reflection",
+    "name": "Perfect Reflection",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Perfect-Reflection.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "quickening",
+    "name": "Quickening",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Quickening.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "rising-force",
+    "name": "Rising Force",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Rising-Force.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "sentinel-booster",
+    "name": "Sentinel Booster",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Sentinel-Booster.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "swift-blade",
+    "name": "Swift Blade",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Swift-Blade.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "viper-strike",
+    "name": "Viper Strike",
+    "category": "legs",
+    "image": "/public/Media/Fragments/Legs/Viper-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "barrier-sentinel",
+    "name": "Barrier Sentinel",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Barrier-Sentinel.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "bruised-defense",
+    "name": "Bruised Defense",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Bruised-Defense.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "critical-strength",
+    "name": "Critical Strength",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Critical-Strength.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "damocles-strike",
+    "name": "Damocles Strike",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Damocles-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "defensive-stance",
+    "name": "Defensive Stance",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Defensive-Stance.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "devious-speed",
+    "name": "Devious Speed",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Devious-Speed.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "electric-discharge",
+    "name": "Electric Discharge",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Electric-Discharge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "entropic-discharge",
+    "name": "Entropic Discharge",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Entropic-Discharge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "explosive-stomp",
+    "name": "Explosive Stomp",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Explosive-Stomp.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "flaming-discharge",
+    "name": "Flaming Discharge",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Flaming-Discharge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "godbreak-surge",
+    "name": "Godbreak Surge",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Godbreak-Surge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "healthy-choice",
+    "name": "Healthy Choice",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Healthy-Choice.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "indirect-approach",
+    "name": "Indirect Approach",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Indirect-Approach.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morbid-endurance",
+    "name": "Morbid Endurance",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Morbid-Endurance.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morbid-shield",
+    "name": "Morbid Shield",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Morbid-Shield.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morphic-infusion",
+    "name": "Morphic Infusion",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Morphic-Infusion.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "morphic-scrambler",
+    "name": "Morphic Scrambler",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Morphic-Scrambler.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "noxious-discharge",
+    "name": "Noxious Discharge",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Noxious-Discharge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "opportune-strike",
+    "name": "Opportune Strike",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Opportune-Strike.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "refreshing-discharge",
+    "name": "Refreshing Discharge",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Refreshing-Discharge.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "restraining-flames",
+    "name": "Restraining Flames",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Restraining-Flames.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  },
+  {
+    "id": "timely-vengeance",
+    "name": "Timely Vengeance",
+    "category": "shoulder",
+    "image": "/public/Media/Fragments/Shoulder/Timely-Vengeance.png",
+    "description": "Add your description here from the game screenshot",
+    "baseDescription": "Base effect description",
+    "upgradedDescription": "Upgraded effect description"
+  }
+]

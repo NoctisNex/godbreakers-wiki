@@ -1,0 +1,130 @@
+[
+  {
+    "id": "accelerate",
+    "name": "Accelerate",
+    "image": "/public/Media/Godbreak Abilities/Accelerate.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "amplify",
+    "name": "Amplify",
+    "image": "/public/Media/Godbreak Abilities/Amplify.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "beam",
+    "name": "Beam",
+    "image": "/public/Media/Godbreak Abilities/Beam.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "chomp",
+    "name": "Chomp",
+    "image": "/public/Media/Godbreak Abilities/Chomp.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "chronos-field",
+    "name": "Chronos Field",
+    "image": "/public/Media/Godbreak Abilities/Chronos-Field.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "egg-mines",
+    "name": "Egg Mines",
+    "image": "/public/Media/Godbreak Abilities/Egg-Mines.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "impede",
+    "name": "Impede",
+    "image": "/public/Media/Godbreak Abilities/Impede.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "injection",
+    "name": "Injection",
+    "image": "/public/Media/Godbreak Abilities/Injection.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "licker-rope",
+    "name": "Licker Rope",
+    "image": "/public/Media/Godbreak Abilities/Licker-Rope.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "power-punch",
+    "name": "Power Punch",
+    "image": "/public/Media/Godbreak Abilities/Power-Punch.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "rejuvenation",
+    "name": "Rejuvenation",
+    "image": "/public/Media/Godbreak Abilities/Rejuvenation.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "sand-burst",
+    "name": "Sand Burst",
+    "image": "/public/Media/Godbreak Abilities/Sand-Burst.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "slam",
+    "name": "Slam",
+    "image": "/public/Media/Godbreak Abilities/Slam.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "spit-pool",
+    "name": "Spit Pool",
+    "image": "/public/Media/Godbreak Abilities/Spit-Pool.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "suppress",
+    "name": "Suppress",
+    "image": "/public/Media/Godbreak Abilities/Suppress.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  },
+  {
+    "id": "temporal-beam",
+    "name": "Temporal Beam",
+    "image": "/public/Media/Godbreak Abilities/Temporal-Beam.png",
+    "description": "Add your description here from the game screenshot",
+    "effect": "Effect description",
+    "cooldown": "TBD"
+  }
+]

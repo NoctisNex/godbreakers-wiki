@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Godbreakers Wiki - Complete guide to fragments, equipment, conditions, and godbreak abilities">
+  <title>Godbreakers Wiki</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Navigation -->
+    <nav class="container-fluid">
+      <ul>
+        <li><strong>Godbreakers Wiki</strong></li>
+      </ul>
+      <ul>
+        <li><a href="#home" data-route="home">Home</a></li>
+        <li><a href="#fragments" data-route="fragments">Fragments</a></li>
+        <li><a href="#equipment" data-route="equipment">Equipment</a></li>
+        <li><a href="#conditions" data-route="conditions">Conditions</a></li>
+        <li><a href="#abilities" data-route="abilities">Abilities</a></li>
+        <li><a href="#guide" data-route="guide">Guide</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Search Bar -->
+      <div class="search-container">
+        <input type="search" id="search-input" placeholder="Search items..." aria-label="Search">
+      </div>
+
+      <!-- Dynamic Content Area -->
+      <div id="content">
+        <!-- Content will be loaded here by router -->
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <small>
+        Godbreakers Wiki - Fan-made resource for the community | 
+        <a href="https://github.com/NoctisNex/godbreakers-wiki" target="_blank">GitHub</a>
+      </small>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
+
